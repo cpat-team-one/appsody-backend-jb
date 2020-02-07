@@ -61,9 +61,6 @@ metadata:
   name: appsody-backend-jb
   namespace: dev-jb
 spec:
-  env:
-    - name: APPSODY_BACKEND_DEFAULT_URL
-      value: http://appsody-backend-jb:3000/
   applicationImage: dev.local/appsody-backend-jb
   createKnativeService: false
   expose: true
